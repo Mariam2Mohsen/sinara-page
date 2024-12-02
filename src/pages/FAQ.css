@@ -1,0 +1,45 @@
+.faq-section {
+    padding: 2rem;
+    background-color:text-forest;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid rgb(100 255 218 / 0.9);
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.25rem;
+    color: rgb(100 255 218 / 0.9);
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: W;
+    margin-top: 0.5rem;
+  }
+  
+  .faq-item.active h3 {
+    color: white;
+  }
+  
+  .faq-item.active p {
+    color: rgb(100 255 218 / 0.9);
+  }
+  
